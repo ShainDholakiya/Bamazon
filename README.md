@@ -10,9 +10,9 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 ![Image of MySQL Database](https://github.com/ShainDholakiya/Bamazon/blob/master/image/Bamazon-MySQL.png)
 
-![Video of User Flow if in stock]()
+![Video of User Flow if in stock](https://github.com/ShainDholakiya/Bamazon/blob/master/user-flow-videos/Bamazon-user-flow-in-stock.mov)
 
-![Video of User Flow if not in stock]()
+![Video of User Flow if not in stock](https://github.com/ShainDholakiya/Bamazon/blob/master/user-flow-videos/Bamazon-user-flow-no-stock.mov)
 
 ## Submission Guide
 
