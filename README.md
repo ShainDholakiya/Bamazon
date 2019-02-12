@@ -10,6 +10,10 @@ Make sure you save and require the MySQL and Inquirer npm packages in your homew
 
 ![Image of MySQL Database](https://github.com/ShainDholakiya/Bamazon/blob/master/image/Bamazon-MySQL.png)
 
+![Video of User Flow if in stock]()
+
+![Video of User Flow if not in stock]()
+
 ## Submission Guide
 
 Make sure you use the normal GitHub. Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include screenshots, a gif, and/or a video showing us that you got the app working with no bugs. You can include these screenshots or a link to a video in a `README.md` file.
