@@ -79,9 +79,7 @@ const promptUser = () => {
                         );
                     }
                     else {
-                        console.log("\nThere is not enough in stock.");
-                        console.log("\nChoose another product.\n");
-                        readData();
+                        console.log("\nThere is not enough in stock.\n");
                     }
                     if (err) throw err;
                     connection.end();
