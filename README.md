@@ -8,6 +8,8 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 
 Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
 
+![Image of MySQL Database](https://shaindholakiya.github.com/image/Bamazon-MySQL.png)
+
 ## Submission Guide
 
 Make sure you use the normal GitHub. Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include screenshots, a gif, and/or a video showing us that you got the app working with no bugs. You can include these screenshots or a link to a video in a `README.md` file.
