@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
 
 connection.connect(function (err) {
     if (err) throw err;
-    console.log("Welcome to bamazon! Here are all the products.");
+    console.log("\nWelcome to bamazon! Here are all the products.\n");
     readData();
 });
 
@@ -29,6 +29,7 @@ const readData = () => {
                 + " || Price: " + res[i].price);
         }
         if (err) throw err;
+        console.log("\n");
         promptUser();
     });
 }
@@ -56,7 +57,7 @@ const promptUser = () => {
                 },
                 function (err, res) {
                     if (res[0].stock_quantity >= answers.units) {
-                        console.log("\nThere is enough!");
+                        console.log("\nThere is enough in stock!");
                         connection.query("UPDATE products SET ? WHERE ?",
                             [
                                 {
@@ -78,7 +79,9 @@ const promptUser = () => {
                         );
                     }
                     else {
-                        console.log("There is not enough");
+                        console.log("\nThere is not enough in stock.");
+                        console.log("\nChoose another product.\n");
+                        readData();
                     }
                     if (err) throw err;
                     connection.end();
